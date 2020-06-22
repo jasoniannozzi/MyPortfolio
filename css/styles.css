@@ -46,11 +46,11 @@ html  {
 
 a   {
     text-decoration: none;
-    color: lightseagreen;
+    color: darkcyan;
 }
 
 a:hover {
-    color: olivedrab;
+    color: lime;
 }
 
 .mainimg {
@@ -203,8 +203,8 @@ a:hover {
     }
   
     a[href^=tel] {
-      text-decoration:inherit;
-      color: white;
+      text-decoration: inherit;
+      color: inherit;
       }
 
       .phonenumber  {
