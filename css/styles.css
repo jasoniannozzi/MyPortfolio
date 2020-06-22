@@ -202,6 +202,14 @@ a:hover {
         display: block;
     }
   
+    a[href^=tel] {
+      text-decoration:inherit;
+      color: white;
+      }
+
+      .phonenumber  {
+        font-size: 14px;
+      }
     
 .education  {
   display: flex;
@@ -433,10 +441,9 @@ a:hover {
         margin: 100px 250px 100px 250px;
       }
 
-      .phoneicon  {
-        font-size: 28px;
-      }
-
+     .phonenumber {
+       font-size: 28px;
+     }
 
     }
 
