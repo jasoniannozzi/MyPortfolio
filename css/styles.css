@@ -46,11 +46,11 @@ html  {
 
 a   {
     text-decoration: none;
-    color: black;
+    color: lightseagreen;
 }
 
 a:hover {
-    color: lightseagreen;
+    color: olivedrab;
 }
 
 .mainimg {
@@ -297,11 +297,7 @@ a:hover {
     color:black;
 }
 
-.phoneicon  {
-  
-    color: lightseagreen;
-    font-size: 14px;
-}
+
 
   #signature    {
     font-family: 'Kristi', cursive;
