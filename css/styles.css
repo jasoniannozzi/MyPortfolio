@@ -289,6 +289,12 @@ a:hover {
     color:black;
 }
 
+.phoneicon  {
+  
+    color: white;
+    font-size: 14px;
+}
+
   #signature    {
     font-family: 'Kristi', cursive;
     font-size: 24px;
@@ -427,6 +433,13 @@ a:hover {
         margin: 100px 250px 100px 250px;
       }
 
+      .phoneicon  {
+        font-size: 28px;
+      }
+
+      .title a {
+        pointer-events: none;
+    }
      
 
     }
