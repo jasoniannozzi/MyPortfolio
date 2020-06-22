@@ -118,7 +118,7 @@ a:hover {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 65vh;
     object-fit: contain;
   }
   
@@ -186,7 +186,6 @@ a:hover {
   flex-wrap: nowrap;
   font-size: 16px;
   margin: 10px;
-  align-items: center;
 }
 
 
@@ -207,7 +206,10 @@ a:hover {
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
+
+
 
 .footerlinks {
     display: flex;
@@ -232,7 +234,13 @@ a:hover {
   .workicon {
     height: 80px;
     width: 80px;
-    opacity: 80%;
+    
+  }
+
+  .workicon1 {
+    height: 100px;
+    width: 150px;
+    
   }
 
   .icons    {
@@ -268,7 +276,7 @@ a:hover {
 
   @media screen and (min-width: 769px)  {
       .mainimg  {
-          height: 70vh;
+          height: 100vh;
       }
 
       .textarea {
@@ -348,8 +356,8 @@ a:hover {
       }
 
       .gradpic  {
-        height: 450px;
-        width: 600px;
+        height: 350px;
+        width: 350px;
         margin: 25px;
         border-radius: 50%;
       }
