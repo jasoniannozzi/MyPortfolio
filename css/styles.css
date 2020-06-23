@@ -118,7 +118,7 @@ a:hover {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 65vh;
+    height: 75vh;
     object-fit: contain;
   }
 
