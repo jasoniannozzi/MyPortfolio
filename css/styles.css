@@ -50,7 +50,7 @@ a   {
 }
 
 a:hover {
-    color: lime;
+    color: springgreen;
 }
 
 .mainimg {
@@ -277,8 +277,8 @@ a:hover {
   }
 
   .workicon {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     
   }
 
