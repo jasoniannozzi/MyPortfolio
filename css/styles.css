@@ -82,7 +82,7 @@ a:hover {
   .textarea {
     position: absolute;
     text-align: center;
-    width: 45%;
+    
     
   }
 
@@ -186,7 +186,7 @@ a:hover {
       background-position: center center; 
       background-size: cover;
       justify-content: space-evenly;
-      height: 175vh;
+      height: 150vh;
       width: auto;
       align-items: center;
       
@@ -194,7 +194,7 @@ a:hover {
 
       .contactmebackground:before {
         background-color: black;
-        height: 175vh;
+        height: 150vh;
         width: 100%;
         content: "";
         opacity: 0.4;
