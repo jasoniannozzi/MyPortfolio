@@ -122,6 +122,11 @@ a:hover {
     object-fit: contain;
   }
 
+  .main-flex  {
+    padding: 25px;
+    
+  }
+
   .flexbox  {
     display: flex;
     flex-direction: column;
