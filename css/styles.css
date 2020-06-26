@@ -280,7 +280,9 @@ a:hover {
 .footerlinks {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: #434C56;
     color: white;
     margin: 0;
@@ -293,7 +295,9 @@ a:hover {
   .footerlinks2 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: white;
     color: black;
     margin: 0;
@@ -348,7 +352,7 @@ a:hover {
     background-color: #434C56;
     margin: 0;
     padding: 0;
-    text-align: left;
+    text-align: right;
   }
 
   #signature2    {
@@ -358,7 +362,7 @@ a:hover {
     background-color: white;
     margin: 0;
     padding: 0;
-    text-align: left;
+    text-align: right;
   }
 
   .bridgecafe {
@@ -450,10 +454,14 @@ a:hover {
 
       .footerlinks  {
           flex-direction: row;
+          justify-content: flex-end;
+          
+          
       }
 
       .footerlinks2  {
         flex-direction: row;
+        justify-content: flex-end;
     }
 
     
