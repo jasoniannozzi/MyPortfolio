@@ -559,7 +559,7 @@ a:hover {
       color: black;
       cursor: pointer;
       padding: 8px 16px;
-      transition: all 420ms ease-in-out; /* what's this? explore a bit... */
+      transition: all 420ms ease-in-out; 
     }
 
 
@@ -585,17 +585,15 @@ a:hover {
       transition: 0.4s ease-in-out;
     }
     
-    /* on top we need spacing from the border, so we have to use padding */
-    /* but we also want that bottom margin to bleed to the edge, so no margins here */
+  
     .side-menu-header {
-      border-bottom: 1px solid rgba(255,255,255,.1); /* based on slack look, very faint */
+      border-bottom: 1px solid rgba(255,255,255,.1); 
       display: flex;
       justify-content: space-between;
       padding: 0 25px 25px 25px;  
     }
     
-    /* Main content is pretty easy for layouts, pattern you'll see in web dev */
-    /* The more text an element has, the easier it is to layout - BAM wisdom bomb! */
+
     .side-menu-content {
       color: #fff;
       font-size: 24px; 
