@@ -61,6 +61,13 @@ a:hover {
     color: springgreen;
 }
 
+.sidea:hover  {
+  color: white;
+  background-color: slategray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .mainimg {
     background-image: url(../img/moutainsunset.jpg);
     display: flex;
