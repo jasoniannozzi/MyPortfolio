@@ -15,6 +15,7 @@ html  {
     color: black;
     height: auto;
     padding: 15px;
+    align-items: center;
   }
 
   .navlink  {
@@ -30,12 +31,15 @@ html  {
       
   }
 
-    .leftside,
-    .rightside {
+    .leftside {
   align-items: center;
   display: flex;
   flex-direction: column;
   
+}
+
+.rightside  {
+  display: none;
 }
 
 .baseballnavlogo    {
@@ -47,6 +51,10 @@ html  {
 a   {
     text-decoration: none;
     color: darkcyan;
+}
+
+.sidea {
+  color: black;
 }
 
 a:hover {
@@ -314,6 +322,12 @@ a:hover {
       
   }
 
+  .sideli {
+    list-style-type: none;
+    font-size: 28px;
+    padding: 15px;
+  }
+
   .workicon {
     height: 100px;
     width: 100px;
@@ -412,10 +426,11 @@ a:hover {
       }
 
       .rightside    {
-          flex-direction: row;
-          justify-content: space-evenly;
-          
-      }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
 
       .navlink  {
         font-size: 24px;
@@ -517,4 +532,100 @@ a:hover {
         height: 100vh;
       }
     }
+
+    .hamburger-menu {
+      display: block; /* display:none starts to show up with responsive */
+      cursor: pointer;
+      font-size: 28px;
+    }
+
+    @media screen and (min-width: 1025px) {
+      .hamburger-menu {
+        display: none;
+      }
+    }
+
+    /* SIDE MENU */
+  .workspaces {
+      background-color: white;
+      border-radius: 10px;
+      color: black;
+      cursor: pointer;
+      padding: 8px 16px;
+      transition: all 420ms ease-in-out; /* what's this? explore a bit... */
+    }
+
+
+    .side-menu-position {
+      padding-top: 25px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 2;
+    }
+    
+    .side-menu-design {
+      background-color: #434C56;
+      color: white;
+      background-image: url('../img/wallpaper.jpg');
+      background-size: cover;
+      background-repeat: repeat;
+      cursor: pointer;
+      opacity: 0;
+      transform: translateX(100%);
+      transition: 0.4s ease-in-out;
+    }
+    
+    /* on top we need spacing from the border, so we have to use padding */
+    /* but we also want that bottom margin to bleed to the edge, so no margins here */
+    .side-menu-header {
+      border-bottom: 1px solid rgba(255,255,255,.1); /* based on slack look, very faint */
+      display: flex;
+      justify-content: space-between;
+      padding: 0 25px 25px 25px;  
+    }
+    
+    /* Main content is pretty easy for layouts, pattern you'll see in web dev */
+    /* The more text an element has, the easier it is to layout - BAM wisdom bomb! */
+    .side-menu-content {
+      color: #fff;
+      font-size: 24px; 
+      margin: 25px;
+      padding-left: 0; 
+    }
+    
+    .side-menu-content li {
+      list-style: none;
+    }
+    
+    .side-menu-workspace {
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .show {
+      display: block;
+    }
+
+    .show-menu {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+
+
+
+
+    
+@media (min-width: 1085px) {
+  .workspaces {
+    display: flex;
+  }  
+}
+
+    
+   
+    
+ 
  
