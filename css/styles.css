@@ -257,6 +257,11 @@ a:hover {
       color: inherit;
       }
 
+      a[href^=mailto] {
+        text-decoration: inherit;
+        color: inherit;
+        }
+
       .phonenumber  {
         font-size: 14px;
       }
